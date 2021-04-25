@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import "reset.css";
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1511731357620-952d10f3234c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  font-family: "Lobster", cursive;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 6.5rem;
+}
+
+.big-text {
+  font-weight: normal;
+  font-size: 4rem;
+  margin: 0 2rem;
+  line-height: 1;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.2rem;
+}
